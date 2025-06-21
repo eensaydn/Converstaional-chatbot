@@ -35,10 +35,3 @@ flowchart TD
     D --> E[Relevant Documents]
     E --> F[LLM Answer using Stuff Chain]
     F --> G[Response + Updated History]
-
-project/
-├── app.py                         # Main application logic
-├── .env                           # API keys and configuration
-├── README.md                      # This file
-├── requirements.txt               # Python dependencies
-
