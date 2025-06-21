@@ -31,7 +31,7 @@ This repository demonstrates a professional implementation of a **Conversational
 flowchart TD
     A[User Question] --> B[Chat History + Question]
     B --> C[Rephrase Question with LLM]
-    C --> D[Retriever (Chroma + Embedding)]
+    C --> D[Retriever (Chroma and Embedding)]
     D --> E[Relevant Documents]
     E --> F[LLM Answer using Stuff Chain]
     F --> G[Response + Updated History]
